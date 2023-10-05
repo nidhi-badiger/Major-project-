@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import CourseDetailsPage from '../Pages/CourseDetailsPage';
@@ -37,7 +36,7 @@ const Routes = () => {
         <Route exact path="/signup">
           <SignupPage />
         </Route>
-        //Admin Routes
+
         <Route exact path="/admin/login">
           <AdminLogin />
         </Route>

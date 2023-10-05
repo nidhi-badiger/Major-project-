@@ -1,6 +1,7 @@
 import axios from 'axios';
 
 export const getCourses = (category) => {
+  console.log(category);
   return axios
     .get(`http://localhost:5000/course/browse/${category}`)
     .then((res) => {
