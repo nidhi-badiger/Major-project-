@@ -12,6 +12,7 @@ import Syllabus from '../../Shared-Components/Syllabus/Syllabus';
 import { fetchCourse } from '../../Redux/courseDetails/actions';
 import useDocumentTitle from '../../CustomHooks/useDocumentTitle';
 import Spinner from '../../Shared-Components/Spinner';
+import Syllabus1 from '../../Shared-Components/Syllabus/Syllabus1';
 
 const CourseDetailsPage = () => {
   const { category, courseName } = useParams();
@@ -38,7 +39,7 @@ const CourseDetailsPage = () => {
       <CourseNav />
       <CourseAbout courseDetails={course.course_details} />
       <hr />
-      <Syllabus course={course} />
+      <Syllabus1 course={course} />
     </div>
   );
 };

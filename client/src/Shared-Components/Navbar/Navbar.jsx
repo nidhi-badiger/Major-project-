@@ -343,7 +343,6 @@ const Navbar = () => {
           'App Development',
           'Computer Science',
           'Information Technology',
-          'Health',
           'Math & Logic',
         ].map((text) => (
           <div style={{ width: 280 }}>
